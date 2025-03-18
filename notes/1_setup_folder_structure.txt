@@ -1,0 +1,18 @@
+Folder Structure
+----------------------
+-app
+    -classes
+    -config
+    -controllers
+    -functions
+    -routing
+-bootstrap => all files initial loading
+    -cache
+-public
+-resources
+    -assets
+        -css 
+        -js
+        -images
+        -sass
+    -view
