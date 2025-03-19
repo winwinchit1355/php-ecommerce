@@ -1,0 +1,16 @@
+Creating virtual host in Window, Mac and Ubuntu have different setup, you can find in the Internet.
+
+site-enable=>
+
+<VirtualHost *:80> 
+    DocumentRoot "G:/laragon/www/php-ecommerce/public"
+    ServerName php-ecommerce.test
+    ServerAlias *.php-ecommerce.test
+    <Directory "G:/laragon/www/php-ecommerce/public">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+httpd.conf=>
+Include conf/extra/httpd-default.conf => uncomment
