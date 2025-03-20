@@ -1,0 +1,10 @@
+Loading env data
+$ composer require vlucas/phpdotenv
+
+Create .env file under project folder
+
+Create _env.php /app/config
+    define("APP_ROOT",realpath(__DIR__.'/../')); //call base path   
+
+public/index.php
+    require_once "../app/config/_env.php";
