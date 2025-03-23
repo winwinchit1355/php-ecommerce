@@ -1,0 +1,21 @@
+Create public/.htaccess
+    RewriteRule . index.php [L]
+=> ဘယ်တန်ဖိုးလာလာ index.php ကိုပို့မယ်
+
+    ReWriteCond %{REQUEST_FILENAME} !-f
+    ReWriteCond %{REQUEST_FILENAME} !-d
+=> not file, not dir 
+
+bootstrap/init.php
+    require_once APP_ROOT.'/app/routing/router.php';
+
+Create app/routing/router.php 
+    $router = new AltoRouter();
+
+    $router->setBasePath('/php-ecommerce/public'); //if create virtual domain ,no need
+
+    $router->map('GET','/post',"","Home Route");
+
+    $match = $router->match();
+
+    output => array(3) { ["target"]=> string(0) "" ["params"]=> array(0) { } ["name"]=> string(10) "Home Route" }
