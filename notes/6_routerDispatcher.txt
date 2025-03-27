@@ -1,0 +1,5 @@
+Create app/routing/RouteDispatcher.php
+
+-inject Altoroute to RouteDispatcher
+-explode controller and method
+

@@ -1,10 +1,12 @@
 <?php
 
+use App\Routing\RouteDispatcher;
+
 $router = new AltoRouter();
 
 // $router->setBasePath('/php-ecommerce/public');
 
-$router->map('GET','/post',"","Home Route");
+$router->map('GET','/',"BaseController@index","Home Route");
 
-$match = $router->match();
+new RouteDispatcher($router);
 
