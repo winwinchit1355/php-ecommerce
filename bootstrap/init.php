@@ -7,6 +7,8 @@ require_once APP_ROOT.'/vendor/autoload.php';
 
 require_once APP_ROOT.'/app/config/_env.php';
 
+require_once APP_ROOT.'/app/classes/BaseController.php';
+
 require_once APP_ROOT.'/app/routing/RouteDispatcher.php';
 
 require_once APP_ROOT.'/app/routing/router.php';

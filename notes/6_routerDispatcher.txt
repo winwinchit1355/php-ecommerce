@@ -2,4 +2,5 @@ Create app/routing/RouteDispatcher.php
 
 -inject Altoroute to RouteDispatcher
 -explode controller and method
-
+-check controller is exist in file
+    if exist , call method
