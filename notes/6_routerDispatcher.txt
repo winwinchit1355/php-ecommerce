@@ -4,3 +4,7 @@ Create app/routing/RouteDispatcher.php
 -explode controller and method
 -check controller is exist in file
     if exist , call method
+-add psr-4 autoload for app 
+-create another class => HomeController.php and extend BaseController
+-install blade template engine
+    composer require philo/laravel-blade
