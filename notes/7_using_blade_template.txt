@@ -4,3 +4,6 @@
     -use philo blade 
 
 -to make autoload for helpers.php on composer.json
+    https://packagist.org/packages/philo/laravel-blade
+
+

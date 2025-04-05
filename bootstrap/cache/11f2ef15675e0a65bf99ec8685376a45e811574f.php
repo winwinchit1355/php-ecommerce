@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Home</h1>
+    <img src="<?php echo APP_URL.'/assets/images/favicon.ico' ?>" alt="">
 </body>
 </html>
