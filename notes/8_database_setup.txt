@@ -1,0 +1,6 @@
+-composer require illuminate/database
+-create classes/Database.php for database credentials
+-invoke Database.php in init.php
+-uninstall philo/laravel-blade 
+-composer require jenssegers/blade
+-composer require illuminate/view:11.7.0
