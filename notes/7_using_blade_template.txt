@@ -1,0 +1,6 @@
+-composer require philo/laravel-blade
+
+-create functions/helpers.php
+    -use philo blade 
+
+-to make autoload for helpers.php on composer.json
